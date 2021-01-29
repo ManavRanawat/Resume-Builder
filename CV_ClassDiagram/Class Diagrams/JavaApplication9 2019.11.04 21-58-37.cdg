@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="JavaApplication9">
+  <ClassDiagramComponents>
+    <Class name="CheckNum" package="" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="isNumeric" returnType="boolean" visibility="public">
+          <Argument type="String" name="str"/>
+        </Method>
+        <Method name="popback" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="Experience" package="" visibility="public" xPosition="20.0" yPosition="175.0">
+      <Fields>
+        <Field name="company" type="String" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="String" name="a"/>
+          <Argument type="String" name="b"/>
+          <Argument type="String" name="c"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="New" package="" visibility="public" xPosition="306.0" yPosition="20.0">
+      <Fields>
+        <Field name="name" type="String" visibility="public" isStatic="true"/>
+        <Field name="schoolname" type="String" visibility="package"/>
+        <Field name="collegename" type="String" visibility="package"/>
+        <Field name="lang" type="String" visibility="package"/>
+        <Field name="image" type="String" visibility="package"/>
+        <Field name="project" type="ArrayList&lt;New_Project&gt;" visibility="package"/>
+        <Field name="exp" type="ArrayList&lt;Experience&gt;" visibility="package"/>
+        <Field name="projectname" type="String" visibility="package"/>
+        <Field name="i" type="int" visibility="package"/>
+        <Field name="image_checker" type="boolean" visibility="package"/>
+        <Field name="achievement" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="achievement_description" type="javax.swing.JTextArea" visibility="private"/>
+        <Field name="cgpa" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="checkImagebtn" type="javax.swing.JButton" visibility="private"/>
+        <Field name="clgdeg" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="clgname" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="companyname" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="deg_diploma" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="deg_hsc" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="degreename" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="imageSay" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="imagepath" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel11" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel12" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel13" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel14" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel15" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel16" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel17" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel18" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel19" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel20" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel21" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel22" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel23" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel24" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel25" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel26" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel27" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel28" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel29" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel30" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel31" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel32" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel3" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel4" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel5" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel6" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane3" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jTabbedPane1" type="javax.swing.JTabbedPane" visibility="private"/>
+        <Field name="jTextField3" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="j_emailtext" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="j_jcpertext" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="j_jctext" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="j_linkedtext" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="j_name" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="j_nametext" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="j_schoolpertext" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="j_schooltext" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="j_submit" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jl" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jl1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jl2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jl3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jl4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jl5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jl6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jl7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jl8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jl9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="language" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="newprojectBtn" type="javax.swing.JButton" visibility="private"/>
+        <Field name="phoneno" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="prodesname" type="javax.swing.JTextArea" visibility="private"/>
+        <Field name="proname" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="skillset" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="workdescript" type="javax.swing.JTextArea" visibility="private"/>
+        <Field name="workdone" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="private">
+          <Argument type="int" name="i"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="j_submitActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="newprojectBtnActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="prodesnameInputMethodTextChanged" returnType="void" visibility="private">
+          <Argument type="java.awt.event.InputMethodEvent" name="evt"/>
+        </Method>
+        <Method name="clgdegActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="clgnameActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="cgpaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="j_jcpertextActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="j_jctextActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="j_schoolpertextActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="j_schooltextActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="phonenoActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="j_emailtextActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="j_linkedtextActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="j_nametextActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="j_nametextInputMethodTextChanged" returnType="void" visibility="private">
+          <Argument type="java.awt.event.InputMethodEvent" name="evt"/>
+        </Method>
+        <Method name="j_nametextFocusLost" returnType="void" visibility="private">
+          <Argument type="java.awt.event.FocusEvent" name="evt"/>
+        </Method>
+        <Method name="j_nametextFocusGained" returnType="void" visibility="private">
+          <Argument type="java.awt.event.FocusEvent" name="evt"/>
+        </Method>
+        <Method name="deg_diplomaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="deg_hscActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="languageActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="skillsetActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="achievementActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="imagepathActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="checkImagebtnActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="phonenoFocusGained" returnType="void" visibility="private">
+          <Argument type="java.awt.event.FocusEvent" name="evt"/>
+        </Method>
+        <Method name="phonenoFocusLost" returnType="void" visibility="private">
+          <Argument type="java.awt.event.FocusEvent" name="evt"/>
+        </Method>
+        <Method name="j_linkedtextFocusGained" returnType="void" visibility="private">
+          <Argument type="java.awt.event.FocusEvent" name="evt"/>
+        </Method>
+        <Method name="j_linkedtextFocusLost" returnType="void" visibility="private">
+          <Argument type="java.awt.event.FocusEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="achievement_descriptionActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="check_submit" returnType="boolean" visibility="public"/>
+        <Method name="check_phone" returnType="boolean" visibility="public"/>
+        <Method name="check_email" returnType="void" visibility="public"/>
+        <Method name="prodesnameActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="isImage" returnType="boolean" visibility="package">
+          <Argument type="String" name="image_path"/>
+        </Method>
+        <Method name="submit_cv" returnType="void" visibility="public"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="New_Project" package="" visibility="public" xPosition="997.0" yPosition="560.0">
+      <Fields>
+        <Field name="project_name" type="String" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="String" name="a"/>
+          <Argument type="String" name="b"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Phone" package="" visibility="public" xPosition="997.0" yPosition="56.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="package"/>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Popup" package="" visibility="public" xPosition="997.0" yPosition="194.0">
+      <Fields>
+        <Field name="jfrm" type="JFrame" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="package"/>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="temp" package="" visibility="public" xPosition="997.0" yPosition="374.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="exp" source="New" target="Experience" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Experience&gt;"/>
+    <HasRelation name="project" source="New" target="New_Project" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;New_Project&gt;"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
